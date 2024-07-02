@@ -2,11 +2,17 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 import Menu from "./components/menu";
+import SliderContainer from "./components/sliderContainer";
+import SliderServices from "./components/sliderServices";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <Menu></Menu>
+      <div className={styles.section_one}>
+        <SliderContainer></SliderContainer>
+        <SliderServices></SliderServices>
+      </div>
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;

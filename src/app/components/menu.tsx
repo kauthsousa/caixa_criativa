@@ -8,8 +8,8 @@ export default function Menu(Props: {}){
             <ul>
                 <li>
                     <Link href="../">
-                        By{" "}
-                        <Image src="/vercel.svg" alt="Vercel Logo" className={styles.vercelLogo} width={100} height={24} priority/>
+                        <Image src="/images/logo.png" alt="Caixa Criativa logo" className={styles.cclogo} width={70} height={70} priority/>
+                        <span>Caixa Criativa</span>
                     </Link>
                 </li>
             </ul>
