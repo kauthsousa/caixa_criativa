@@ -46,9 +46,13 @@
 }
 
 .sliderContainer {
-  border: solid white 1px;
+  border-radius: 1rem;
+  background-color: rgb(153, 195, 26);
   display: inline-flex;
   width: 40rem;
+  height: 30rem;
+  box-sizing: border-box;
+  padding: 2rem;
 }
 
 .sliderContainer li{
@@ -56,9 +60,13 @@
 }
 
 .sliderServices {
-  border: solid white 1px;
+  border-radius: 1rem;
+  background-color: rgb(153, 195, 26);
   display: inline-flex;
+  box-sizing: border-box;
+  padding: 2rem;
   width: 30rem;
+  height: 30rem;
   margin-left: 5rem;
 }
 
